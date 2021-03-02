@@ -6,7 +6,7 @@ const STYLES = ['btn--primrary', 'btn--outline'];
 
 const SIZES = ['btn--medium', 'btn--large'];
 
-export const Button = ({
+ const Button = ({
   children,
   type,
   onClick,
@@ -33,3 +33,5 @@ export const Button = ({
       </Link>
     )
 };
+
+export default Button;
