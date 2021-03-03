@@ -9,22 +9,19 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          Para mayor información puede contactarse a los siguientes números
-           que figuran en el código QR
+          Para mayor información puede contactarse a los siguientes números que
+          figuran en el código QR
         </p>
-        <Frame
-              src="images/frame.png"
-              text="!"
-        />
+        <Frame src="images/frame.png" text="!" />
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <a >Instagram</a>
+            <a>Instagram</a>
             <a href={url}>Facebook</a>
-            <a >Youtube</a>
-            <a >Twitter</a>
+            <a>Youtube</a>
+            <a>Twitter</a>
           </div>
         </div>
       </div>
@@ -33,7 +30,7 @@ function Footer() {
           <div class="footer-logo">
             <Link to="/" className="social-logo">
               TCI&SI
-              <i class="fab fa-typo3" />
+              <i class="far fa-building" />
             </Link>
           </div>
           <small class="website-rights">TCI&SI © 2021</small>
