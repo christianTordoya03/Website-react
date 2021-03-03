@@ -12,7 +12,7 @@ function Footer() {
           Para mayor información puede contactarse a los siguientes números que
           figuran en el código QR
         </p>
-        <Frame src="images/frame.png" text="!" />
+        <Frame src="images/frame.png" />
       </section>
       <div className="footer-links">
         <div className="footer-link-wrapper">
@@ -22,6 +22,14 @@ function Footer() {
             <a href={url}>Facebook</a>
             <a href="/">Youtube</a>
             <a href="/">Twitter</a>
+          </div>
+        </div>
+        <div className="footer-link-wrapper">
+          <div className="footer-link-items">
+            <h2>Contáctanos</h2>
+            <a href="/">Jose Vicente Tordoya Quevedo</a>
+            <a href={url}>(01)4893011 </a>
+            <a href="/">+51 943 450 491</a>
           </div>
         </div>
       </div>
