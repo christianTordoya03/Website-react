@@ -7,9 +7,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-1.mp4' autoPlay loop muted />
-      <h1>TORDOYA CAPITAL</h1>
-      <p>Necesitas vender, comprar o alquilar un inmueble en Lima Norte?</p>
+      <video src='/videos/video.mp4' autoPlay loop muted />
+      {/* <h1>TORDOYA CAPITAL</h1>
+      <p>Necesitas vender, comprar o alquilar un inmueble en Lima Norte?</p> */}
       {/* <div className='hero-btns'>
         <Button
           className='btns'
