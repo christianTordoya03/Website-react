@@ -7,7 +7,7 @@ const Frame = (props) => {
     <>
       <Link className="frame__item__link">
         <figure>
-          <img className="frame__item__img" alt="" src={props.src} />
+          <img className="frame__item__img" src={props.src} />
         </figure>
       </Link>
     </>

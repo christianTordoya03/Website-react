@@ -14,41 +14,41 @@ function Footer() {
         </p>
         <Frame src="images/frame.png" text="!" />
       </section>
-      <div class="footer-links">
+      <div className="footer-links">
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          <div className="footer-link-items">
             <h2>Social Media</h2>
-            <a>Instagram</a>
+            <a href="/">Instagram</a>
             <a href={url}>Facebook</a>
-            <a>Youtube</a>
-            <a>Twitter</a>
+            <a href="/">Youtube</a>
+            <a href="/">Twitter</a>
           </div>
         </div>
       </div>
-      <section class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
+      <section className="social-media">
+        <div className="social-media-wrap">
+          <div className="footer-logo">
             <Link to="/" className="social-logo">
               TCI&SI
               <i class="far fa-building" />
             </Link>
           </div>
-          <small class="website-rights">TCI&SI © 2021</small>
-          <div class="social-icons">
+          <small className="website-rights">TCI&SI © 2021</small>
+          <div className="social-icons">
             <a href={url} class="social-icon-link facebook">
-              <i class="fab fa-facebook-f" />
+              <i className="fab fa-facebook-f" />
             </a>
-            <a class="social-icon-link instagram">
-              <i class="fab fa-instagram" />
+            <a href="/" className="social-icon-link instagram">
+              <i className="fab fa-instagram" />
             </a>
-            <a class="social-icon-link youtube">
-              <i class="fab fa-youtube" />
+            <a href="/" className="social-icon-link youtube">
+              <i className="fab fa-youtube" />
             </a>
-            <a class="social-icon-link twitter">
-              <i class="fab fa-twitter" />
+            <a href="/" className="social-icon-link twitter">
+              <i className="fab fa-twitter" />
             </a>
-            <a class="social-icon-link twitter">
-              <i class="fab fa-linkedin" />
+            <a href="/" className="social-icon-link twitter">
+              <i className="fab fa-linkedin" />
             </a>
           </div>
         </div>

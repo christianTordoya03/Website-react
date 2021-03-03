@@ -12,13 +12,11 @@ function Cards() {
             <CardItem
               src="images/card.png"
               text="Tenemos las herramientas y el conocimiento para cubrir su necesidad en el menor tiempo y con mayor margen de utilidad"
-              
               path="/services"
             />
             <CardItem
               src="images/card-2.png"
               text="Nos encargamos de sanear su inmueble ante registros públicos"
-              
               path="/services"
             />
           </ul>
@@ -26,19 +24,16 @@ function Cards() {
             <CardItem
               src="images/card-3.png"
               text="Inscripción de la edificación en registros públicos sin que pague multas"
-              
               path="/services"
             />
             <CardItem
               src="images/logo.png"
               text="Profesionales especializados en superar tus expectativas"
-              
               path="/products"
             />
             <CardItem
               src="images/card-4.png"
               text="Conoce los beneficios de la titulación de un inmueble"
-              
               path="/sign-up"
             />
           </ul>
