@@ -33,7 +33,7 @@ function Navbar() {
                 Servicios
               </Link>
             </li>
-            {/* <li className="nav-item">
+            <li className="nav-item">
               <Link
                 to="/products"
                 className="nav-links"
@@ -41,7 +41,7 @@ function Navbar() {
               >
                 Productos
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </nav>
