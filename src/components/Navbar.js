@@ -39,7 +39,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Productos
+                Propiedades
               </Link>
             </li>
           </ul>
