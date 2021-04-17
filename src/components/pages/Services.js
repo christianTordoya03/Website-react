@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "../../components/HeroSection.css";
-import services from "../../images/servicios.png";
+import services from "../../images/tcserv.png";
 
 const Services = () => {
   return (
