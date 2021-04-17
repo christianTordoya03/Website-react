@@ -18,7 +18,7 @@ const Products = () => {
                 path="/services"
               />
               <CardItem
-                src="images/terreno.jpg"
+                src="images/tc.png"
                 text="Nos encargamos de sanear su inmueble ante registros públicos"
                 path="/services"
               />
